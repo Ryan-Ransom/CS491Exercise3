@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td><input type="button" id="button1" class="tableButton" onclick="setButton('button1')"></td>
+            <td><input type="button" id="button2" class="tableButton" onclick="setButton('button2')"></td>
+            <td><input type="button" id="button3" class="tableButton" onclick="setButton('button3')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" id="button4" class="tableButton" onclick="setButton('button4')"></td>  
+            <td><input type="button" id="button5" class="tableButton" onclick="setButton('button5')"></td>
+            <td><input type="button" id="button6" class="tableButton" onclick="setButton('button6')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" id="button7" class="tableButton" onclick="setButton('button7')"></td>
+            <td><input type="button" id="button8" class="tableButton" onclick="setButton('button8')"></td>
+            <td><input type="button" id="button9" class="tableButton" onclick="setButton('button9')"></td>
+        </tr>
+    </table>
+    <input type="button" id="startBtn" value="Start" onclick="resetTable()">
+    <input type="button" id="loadBtn" value="Load File" onclick="openFile()">
+    <input type="button" id="updateBtn" value="Update Board" onclick="loadState()">
+    <script src="script.js"></script>
+</body>
+</html>
